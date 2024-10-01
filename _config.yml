@@ -4,3 +4,19 @@ plugins:
 
 title: Bearleargais
 description: Translation of Nualeargais.
+
+# Define navigation links
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Chapter 1"
+    url: "/chapter1/"
+  - title: "Chapter 2"
+    url: "/chapter2/"
+  # Add more chapters as needed
+
+# Optional: Define collections for chapters (advanced)
+collections:
+  chapters:
+    output: true
+    permalink: /:path/
